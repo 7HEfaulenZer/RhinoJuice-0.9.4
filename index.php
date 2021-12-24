@@ -197,8 +197,8 @@
         </div>
       </div>
     
-        <script src="App1.js"></script>
-
+        <script src="App1.js"></script>  
+        <?php include ("Senda.php"); ?>
         <div class="bottom">
           <h1>Enjoy!</h1>
           <p id="big">RhinoJuice Student Company.</p>
