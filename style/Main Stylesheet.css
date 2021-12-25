@@ -186,6 +186,7 @@ section{
     pointer-events: none;
     transition: 0.01s;
     transition-delay: 0.375s;
+    z-index: 5;
     opacity: 0;
 
   } 
