@@ -181,12 +181,14 @@ section{
     z-index: 10;
     transition: 0.01s;
     pointer-events: all;
+    opacity: 1;
   }
   .card:focus .cardFront{
     pointer-events: none;
     transition: 0.01s;
     transition-delay: 0.375s;
     z-index: 5;
+    opacity: 0;
   } 
   /*------------------------*/
   .card:focus .cardBack h1{
@@ -236,6 +238,7 @@ section{
     background-size: 500%;
     background-position: left;
     pointer-events: all;
+    opacity: 1;
   }
   .cardFront:hover{
     transition: .5s ease;
@@ -323,6 +326,7 @@ section{
     transition: 0.01s;
     transition-delay: 0.375s;
     z-index: 5;
+    opacity: 0;
   }
   .cardBack h1{
     padding: 50px;
