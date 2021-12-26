@@ -601,9 +601,10 @@ section{
   padding: 20px;
 }
 .production .fat{
+  text-transform: uppercase;
   padding: 20px;
   margin-top: 100px;
-  font-size: 5rem;
+  font-size: 6rem;
   background-image: linear-gradient(to left,
   rgb(252, 167, 81), 
   rgb(149, 252, 81), 
