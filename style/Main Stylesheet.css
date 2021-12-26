@@ -604,7 +604,7 @@ section{
   padding: 20px;
   margin-top: 100px;
   font-size: 5rem;
-  background-image: linear-gradient(
+  background-image: linear-gradient(to left,
   rgb(252, 167, 81), 
   rgb(149, 252, 81), 
   rgb(81, 178, 252),
