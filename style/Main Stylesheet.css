@@ -598,7 +598,18 @@ section{
   font-size: 1em;
   padding: 20px;
 }
-
+.fat{
+  padding: 20px;
+  max-width: 75rem;
+  font-size: 3rem;
+  background-image: linear-gradient(to left, 
+  rgb(252, 167, 81), 
+  rgb(149, 252, 81), 
+  rgb(81, 178, 252),
+  rgb(135, 81, 252));
+  background-clip: text;
+  color: transparent;
+}
 /*-----------------------------------------------------------------------------*/
 
 .about{
