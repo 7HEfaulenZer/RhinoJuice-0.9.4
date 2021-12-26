@@ -603,15 +603,25 @@ section{
 .production .fat{
   padding: 20px;
   margin-top: 100px;
-  max-width: 75rem;
   font-size: 5rem;
-  background-image: linear-gradient(to left, 
+  background-image: linear-gradient(
   rgb(252, 167, 81), 
   rgb(149, 252, 81), 
   rgb(81, 178, 252),
   rgb(135, 81, 252));
   background-clip: text;
   color: transparent;
+  background-size: 400%;
+  animation: bg-animation 20s infinite alternate;
+}
+
+@keyframes bg-animation {
+  0% {
+    background-position: left;
+  }
+  100% {
+    background-position: right;
+  }
 }
 /*-----------------------------------------------------------------------------*/
 
